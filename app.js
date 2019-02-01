@@ -18,6 +18,8 @@ app.get('/', (req, res) => {
         build: "development"
     })
 });
+
+
 app.use('/users', usersRouter);
 
 module.exports = app;
